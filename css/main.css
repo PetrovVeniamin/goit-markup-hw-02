@@ -1,0 +1,166 @@
+
+:root {
+    --navy-blue: #2e2f42;
+    --white: #ffffff;
+    --slate: #434455;
+    --iris: #4D5AE5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: Arial, sans-serif;
+    color: var(--slate);
+
+ }
+
+ .hero {
+    
+
+    display: flex;
+    justify-content: center;
+
+
+ }
+
+
+ .hero-box {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 420px;
+
+    background: var(--navy-blue);
+    color:white;
+
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 20px;
+ }
+
+ .hero h1 {
+    font-size: 56px;
+    max-width: 700px;
+ }
+
+
+ .hero button {
+    padding: 16px 32px;
+    background: var(--iris);
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+
+ .features {
+    width: 100%;
+    background: var(--white);
+    padding: 40px 0;
+
+ }
+
+
+ .features-list {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+ }
+
+
+ .features-item {
+    max-width: 250px;
+ }
+
+
+ .team {
+    width: 100%;
+    background: var(--cloud);
+    padding: 40px 0;
+    text-align: center;
+
+ }
+
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+
+
+ .team-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+ }
+
+
+ .team-card {
+    width: 260px;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+ }
+
+
+ 
+
+
+ .team-card img {
+    width: 100%;
+    border-radius: 4px;
+ }
+
+
+ .portfolio {
+    width: 100%;
+    background: var(--white);
+    padding: 40px 0;
+    text-align: center;
+ }
+
+
+ .portfolio-grid {
+    max-width: 1100px;
+    margin: 40px auto o;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+ }
+
+
+
+
+
+ .portfolio-item img {
+    width: 100%;
+    display: block;
+ }
+ 
+
+
+ .footer {
+    padding: 60px 0;
+ }
+
+ .footer-inner {
+    background: var(--navy-blue);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+ }
+
+
+
+
